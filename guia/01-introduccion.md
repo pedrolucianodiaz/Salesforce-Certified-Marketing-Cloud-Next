@@ -18,3 +18,5 @@ de cualquier fuente. Por si fuera poco, Agentforce, que viene integrado de forma
 nativa en Marketing Cloud Next, ofrece a los profesionales del marketing una
 escalabilidad ilimitada y la posibilidad de convertir los canales en conversaciones
 bidireccionales con agentes de IA.
+
+![Marketing Cloud Next construido sobre la plataforma principal de Salesforce, integrado con Data 360 y Agentforce](https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/marketing-cloud-next-basics/get-to-know-marketing-cloud-next/images/5560378015bc23f1bcbb5dd6360821ef_kix.squ0s4og4apq.png)
