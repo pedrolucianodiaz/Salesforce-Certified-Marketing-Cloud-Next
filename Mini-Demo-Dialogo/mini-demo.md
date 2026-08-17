@@ -1,5 +1,10 @@
 # Mini demo
 
+> Transcripción corregida. La versión original venía de subtítulos
+> auto-generados y tenía errores de reconocimiento de voz (por ejemplo
+> "agent Force" → **Agentforce**, "DataCloud" → **Data Cloud**,
+> "slow is automating" → **Flow is automating**). Aquí quedan corregidos.
+
 ```vtt
 WEBVTT
 
@@ -34,16 +39,16 @@ solutions, Marketing Cloud Next is
 natively built on the Salesforce platform, 
 
 00:00:24.019 --> 00:00:26.138
-meaning it's agent Force native and powered 
+meaning it's Agentforce native and powered 
 
 00:00:26.138 --> 00:00:28.280
-by DataCloud, which connects marketing, 
+by Data Cloud, which connects marketing, 
 
 00:00:28.579 --> 00:00:30.420
 sales, service, and commerce. 
 
 00:00:32.039 --> 00:00:34.279
-First, marketing cloud can help you 
+First, Marketing Cloud can help you 
 
 00:00:34.279 --> 00:00:36.348
 understand customer and marketing performance. 
@@ -61,7 +66,7 @@ just a few clicks, like revenue for the
 quarter. And 
 
 00:00:45.310 --> 00:00:46.259
-with Agent Force, 
+with Agentforce, 
 
 00:00:46.658 --> 00:00:48.868
 campaign performance is autonomously monitored 
@@ -112,7 +117,7 @@ including a bulk custom order for company swag
 and his affiliation to a tier one wholesale 
 
 00:01:26.588 --> 00:01:28.750
-account. Agent Force 
+account. Agentforce 
 
 00:01:28.750 --> 00:01:31.150
 leverages his conversion history, AI 
@@ -130,19 +135,19 @@ as well as past interactions to make informed
 recommendations right here on his profile. 
 
 00:01:42.558 --> 00:01:44.739
-Now let's take a look at how marketing cloud 
+Now let's take a look at how Marketing Cloud 
 
 00:01:44.739 --> 00:01:47.569
 can help you manage cross channel experiences. 
 
 00:01:48.180 --> 00:01:50.299
-Creating the loyalty campaign AgentForce 
+Creating the loyalty campaign Agentforce 
 
 00:01:50.299 --> 00:01:51.569
 recommended is easy. 
 
 00:01:51.859 --> 00:01:54.099
-Ask AgentForce to create a loyalty signup 
+Ask Agentforce to create a loyalty signup 
 
 00:01:54.099 --> 00:01:56.109
 promotion using the NTO 
@@ -154,7 +159,7 @@ Mega Deal discount starting next week
 for one-time buyers with a high spending 
 
 00:02:00.659 --> 00:02:02.730
-propensity, and Agent Force will 
+propensity, and Agentforce will 
 
 00:02:02.730 --> 00:02:03.739
 instantly generate it. 
@@ -166,7 +171,7 @@ Once you have the promo, you can quickly create
 a full campaign to activate it. 
 
 00:02:10.159 --> 00:02:12.069
-Agent Force helps you write the brief, 
+Agentforce helps you write the brief, 
 
 00:02:12.399 --> 00:02:14.520
 including everything from target audience 
@@ -181,7 +186,7 @@ You can edit and refine things in the brief and
 confirm once you're happy. 
 
 00:02:21.929 --> 00:02:24.099
-Now Agent Force will autonomously create 
+Now Agentforce will autonomously create 
 
 00:02:24.099 --> 00:02:25.969
 the drafts of the audience segment 
@@ -190,7 +195,7 @@ the drafts of the audience segment
 along with the email and SMS content 
 
 00:02:28.449 --> 00:02:30.889
-that's added to a new journey in flow. 
+that's added to a new journey in Flow. 
 
 00:02:31.338 --> 00:02:33.338
 Let's take a look at this campaign experience for 
@@ -223,7 +228,7 @@ Matt simply replies to the SMS with his
 question and gets an immediate response 
 
 00:02:53.300 --> 00:02:54.240
-from Agent Force. 
+from Agentforce. 
 
 00:02:55.538 --> 00:02:57.699
 He can also connect with a human service rep 
@@ -238,7 +243,7 @@ conversation.
 But it doesn't stop there. The power 
 
 00:03:04.879 --> 00:03:07.110
-of Agent Force continues on the website, 
+of Agentforce continues on the website, 
 
 00:03:07.319 --> 00:03:09.319
 with Matt's experience being personalized 
@@ -250,22 +255,22 @@ with the same loyalty offer and
 product recommendations just for him. 
 
 00:03:15.868 --> 00:03:17.979
-And with Agent Force, every customer 
+And with Agentforce, every customer 
 
 00:03:17.979 --> 00:03:19.288
 gets VIP treatment. 
 
 00:03:19.939 --> 00:03:22.118
-Matt can have a two-way interaction where Agent 
+Matt can have a two-way interaction where 
 
 00:03:22.118 --> 00:03:24.300
-Force provides order assistance based 
+Agentforce provides order assistance based 
 
 00:03:24.300 --> 00:03:25.580
 on his real-time profile. 
 
 00:03:27.360 --> 00:03:29.838
-Finally, let's take a look at how marketing cloud 
+Finally, let's take a look at how Marketing Cloud 
 
 00:03:29.838 --> 00:03:31.868
 can help you increase business efficiency 
@@ -274,7 +279,7 @@ can help you increase business efficiency
 and scale. 
 
 00:03:33.610 --> 00:03:35.610
-Behind the scenes, slow is automating 
+Behind the scenes, Flow is automating 
 
 00:03:35.610 --> 00:03:37.360
 the full customer experience. 
@@ -310,7 +315,7 @@ be connected with an AI agent or
 a human rep. 
 
 00:04:00.939 --> 00:04:03.569
-As you can see, flow can be used to power dynamic 
+As you can see, Flow can be used to power dynamic 
 
 00:04:03.740 --> 00:04:05.979
 agentic experiences across the full 
@@ -328,7 +333,7 @@ These are just a few examples of what's possible
 when your marketing platform is natively built 
 
 00:04:14.528 --> 00:04:16.540
-on agentForce and powered by 
+on Agentforce and powered by 
 
 00:04:16.540 --> 00:04:18.540
 one data set and one workflow 
