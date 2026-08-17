@@ -32,3 +32,12 @@ y canales.
 de lidiar con herramientas, retocar píxeles y perseguir aprobaciones, los
 profesionales del marketing recuperan tiempo para lo que realmente importa:
 estrategia, creatividad e impulsar el crecimiento.
+
+A diferencia de otras plataformas de marketing que adaptan capacidades de IA a
+sistemas heredados, Marketing Cloud Next está diseñado específicamente para el
+marketing basado en agentes, con datos procesables, flujos de trabajo
+interdepartamentales y agentes de IA autónomos que impulsan la acción. Estos
+agentes de IA pueden transformar cada canal en una conversación bidireccional. Y,
+en segundo plano, actúan como colaboradores siempre disponibles, gestionando
+tareas complejas como la creación de campañas, la optimización del rendimiento y
+la personalización individualizada a gran escala.
