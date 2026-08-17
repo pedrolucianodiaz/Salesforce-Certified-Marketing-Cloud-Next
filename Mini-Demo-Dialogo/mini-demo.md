@@ -1,5 +1,7 @@
 # Mini demo
 
+▶️ **Ver el video:** https://play.vidyard.com/gbTd9UqXDfF5njLHRUD7CA
+
 > Transcripción corregida. La versión original venía de subtítulos
 > auto-generados y tenía errores de reconocimiento de voz (por ejemplo
 > "agent Force" → **Agentforce**, "DataCloud" → **Data Cloud**,
