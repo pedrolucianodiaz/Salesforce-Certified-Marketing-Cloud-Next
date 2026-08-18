@@ -12,6 +12,9 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      // En desarrollo no registramos el service worker: así el navegador no
+      // cachea versiones viejas y los cambios se ven al instante (HMR).
+      devOptions: { enabled: false },
       includeAssets: ['favicon.png', 'apple-touch-icon.png'],
       manifest: {
         name: 'Salesforce Marketing Cloud Next — Guía',
