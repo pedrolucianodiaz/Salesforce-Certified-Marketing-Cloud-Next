@@ -16,9 +16,9 @@ export default function Welcome({ onContinue }) {
         <div className="welcome-text">
           <h1>Welcome to your study guide</h1>
           <p>
-            A quick recap to review the <strong>Salesforce Marketing Cloud
-            Next</strong> certification. The official module lives on{' '}
-            <strong>Trailhead</strong>.
+            A quick recap to review the certification
+            <span className="welcome-product">Salesforce Marketing Cloud Next</span>
+            The official module lives on <strong>Trailhead</strong>.
           </p>
           <p className="welcome-subtitle">
             Resumen de apoyo en español · No reemplaza el módulo oficial de Trailhead.
