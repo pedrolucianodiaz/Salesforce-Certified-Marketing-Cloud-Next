@@ -185,7 +185,7 @@ export default function App() {
                   <ListItemIcon sx={{ minWidth: 34 }}>
                     <MenuBookIcon fontSize="small" color={i === active ? 'inherit' : 'action'} />
                   </ListItemIcon>
-                  <ListItemText primary={ch.title} primaryTypographyProps={{ fontSize: 13, fontWeight: i === active ? 600 : 400 }} />
+                  <ListItemText primary={ch.title} primaryTypographyProps={{ fontSize: 12, fontWeight: i === active ? 600 : 400 }} />
                 </ListItemButton>
               )
             })}
