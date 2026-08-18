@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import {
   AppBar, Toolbar, IconButton, Typography, Box, Drawer,
   List, ListItemButton, ListItemText, ListItemIcon, Paper, Button,
@@ -260,7 +261,7 @@ export default function App() {
               borderColor: 'divider',
             }}
           >
-            <ReactMarkdown components={mdComponents}>{content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>{content}</ReactMarkdown>
           </Paper>
         </Box>
       </Box>

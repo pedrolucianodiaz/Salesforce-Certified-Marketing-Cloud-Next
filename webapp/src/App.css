@@ -19,3 +19,29 @@
   margin: 8px 0 16px;
 }
 .markdown-body li { margin-bottom: 4px; }
+
+/* Tablas (GitHub-flavored markdown) */
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  font-size: 13px;
+  display: block;
+  overflow-x: auto;          /* scroll horizontal en mobile si no entra */
+}
+.markdown-body th,
+.markdown-body td {
+  border: 1px solid #dfe6ee;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.5;
+}
+.markdown-body thead th {
+  background: #0176d3;
+  color: #fff;
+  font-weight: 700;
+}
+.markdown-body tbody tr:nth-of-type(even) {
+  background: #f3f6f9;
+}
