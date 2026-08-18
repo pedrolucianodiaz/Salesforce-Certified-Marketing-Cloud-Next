@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketing Cloud Next — Diapositivas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/white.css" id="theme" />
+  <style>
+    :root { --r-main-color: #16325c; --r-heading-color: #032d60; }
+    .reveal h1, .reveal h2, .reveal h3 { color: #032d60; text-transform: none; }
+    .reveal h1 { border-bottom: 3px solid #0176d3; padding-bottom: 12px; }
+    .reveal { font-size: 30px; }
+    .reveal img { border: 1px solid #dfe6ee; border-radius: 8px; max-height: 420px; }
+    .reveal section { text-align: left; }
+    .reveal ul { display: block; }
+    .home-link {
+      position: fixed; top: 14px; right: 18px; z-index: 30;
+      background: #0176d3; color: #fff; text-decoration: none;
+      padding: 7px 14px; border-radius: 6px; font-family: sans-serif; font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <a class="home-link" href="index.html">📖 Vista lectura</a>
+  <div class="reveal">
+    <div class="slides">
+      <!-- Portada -->
+      <section data-background-color="#032d60">
+        <h1 style="color:#fff;border:none;">Salesforce Certified<br>Marketing Cloud Next</h1>
+        <p style="color:#9fd0ff;">Guía de estudio · diapositivas</p>
+        <p style="color:#cfe6ff;font-size:20px;">Usá las flechas ← → para navegar</p>
+      </section>
+
+      <!-- Cada capítulo se carga desde su .md; los "---" dentro del md separan slides -->
+      <section data-markdown="guia/01-introduccion.md" data-separator="^\n---\n$" data-separator-vertical="^\n>>>\n$"></section>
+      <section data-markdown="guia/02-marketing-basado-en-agentes.md" data-separator="^\n---\n$"></section>
+      <section data-markdown="guia/03-evolucion-de-marketing-cloud.md" data-separator="^\n---\n$"></section>
+
+      <section data-background-color="#0176d3">
+        <h2 style="color:#fff;">¡Fin del repaso!</h2>
+        <p style="color:#eaf4fe;">Volvé a la <a href="index.html" style="color:#fff;text-decoration:underline;">vista de lectura</a> para ver todo el contenido.</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      plugins: [RevealMarkdown, RevealNotes],
+    });
+  </script>
+</body>
+</html>
