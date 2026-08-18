@@ -1,0 +1,21 @@
+/* Estilos del contenido Markdown. La tipografía (títulos, párrafos, listas,
+   enlaces) la maneja Material vía los componentes Typography en App.jsx.
+   Aquí solo quedan imágenes, código y listas. */
+.markdown-body img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 18px 0;
+  border: 1px solid #dfe6ee;
+}
+.markdown-body code {
+  font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background: #f0f2f5;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.markdown-body ul {
+  padding-left: 22px;
+  margin: 8px 0 16px;
+}
+.markdown-body li { margin-bottom: 4px; }

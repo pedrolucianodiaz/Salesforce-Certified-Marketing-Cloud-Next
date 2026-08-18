@@ -1,0 +1,24 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Roboto', -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Fondo por defecto (app) y control del rebote/overscroll en mobile,
+   para que al llegar al final no aparezca una franja blanca. */
+html, body {
+  background-color: #f3f6f9;
+  overscroll-behavior-y: none;
+}
+
+/* Mientras se ve la bienvenida, el fondo del rebote también es azul
+   y bloqueamos el scroll: no hay más contenido, así se queda fija y
+   no dispara el ocultar/mostrar de la barra de Chrome en mobile. */
+body.welcome-active {
+  background-color: #032d60;
+  overflow: hidden;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+}

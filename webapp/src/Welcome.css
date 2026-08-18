@@ -1,0 +1,103 @@
+.welcome {
+  position: fixed;
+  inset: 0;
+  height: 100dvh;               /* altura dinámica: respeta la barra de Chrome mobile */
+  background: linear-gradient(160deg, #0176d3 0%, #0b5cab 60%, #032d60 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+  overflow: hidden;
+}
+
+/* círculos decorativos suaves de fondo (como el mockup) */
+.welcome::before,
+.welcome::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+}
+.welcome::before { width: 340px; height: 340px; top: -80px; right: -120px; }
+.welcome::after { width: 260px; height: 260px; bottom: 40px; left: -110px; }
+
+.welcome-inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 460px;
+  /* más aire abajo para que el botón no quede al ras del margen inferior */
+  padding: 28px 28px calc(72px + env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-illustration {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 8px;
+}
+.welcome-illustration img {
+  width: 112%;              /* grande pero sin quedar ajustado en mobile */
+  max-width: 560px;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.22));
+}
+
+/* En pantallas bajas/chicas, achicamos la imagen para dar aire al texto y botón */
+@media (max-height: 720px) {
+  .welcome-illustration img { width: 92%; max-width: 420px; }
+  .welcome-text h1 { font-size: 23px; }
+}
+
+.welcome-text {
+  text-align: center;
+  margin: 12px 0 8px;
+}
+.welcome-text h1 {
+  /* se adapta al ancho para entrar en una sola línea en mobile */
+  font-size: clamp(20px, 6.2vw, 25px);
+  font-weight: 700;
+  margin: 0 0 12px;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+.welcome-text p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.88);
+  margin: 0;
+}
+.welcome-text strong { color: #fff; }
+.welcome-subtitle {
+  font-size: 12px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  margin-top: 10px !important;
+}
+
+/* separación entre el texto y los botones */
+.welcome-text { margin-bottom: 28px; }
+
+.welcome-btn {
+  width: 100%;
+  max-width: 360px;
+  background: #fff;
+  color: #0176d3;
+  border: none;
+  border-radius: 30px;
+  padding: 17px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.welcome-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
