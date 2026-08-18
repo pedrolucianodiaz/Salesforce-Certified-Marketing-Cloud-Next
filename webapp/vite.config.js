@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// El sitio se publica bajo /Salesforce-Certified-Marketing-Cloud-Next/react/
-// en GitHub Pages, por eso el base apunta a esa subruta.
-const BASE = '/Salesforce-Certified-Marketing-Cloud-Next/react/'
+// El sitio se publica bajo /Salesforce-Certified-Marketing-Cloud-Next/
+// en GitHub Pages (project site), por eso el base apunta a esa subruta.
+const BASE = '/Salesforce-Certified-Marketing-Cloud-Next/'
 
 export default defineConfig({
   base: BASE,
