@@ -45,3 +45,24 @@
 .markdown-body tbody tr:nth-of-type(even) {
   background: #f3f6f9;
 }
+
+/* Grilla de tarjetas: 2 columnas en desktop, 1 en mobile */
+.markdown-body .card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin: 18px 0;
+}
+@media (max-width: 600px) {
+  .markdown-body .card-grid { grid-template-columns: 1fr; }
+}
+.markdown-body .card {
+  background: #f7f9fc;
+  border: 1px solid #dfe6ee;
+  border-left: 4px solid #0176d3;
+  border-radius: 12px;
+  padding: 4px 18px 8px;
+}
+/* apretar los márgenes del contenido dentro de la tarjeta */
+.markdown-body .card > *:first-child { margin-top: 12px; }
+.markdown-body .card ul { margin-bottom: 8px; }

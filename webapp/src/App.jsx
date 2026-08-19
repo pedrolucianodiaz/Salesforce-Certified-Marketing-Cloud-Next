@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
 import {
   AppBar, Toolbar, IconButton, Typography, Box, Drawer,
   List, ListItemButton, ListItemText, ListItemIcon, Paper, Button,
@@ -38,7 +39,7 @@ const CHAPTERS = SECTIONS.flatMap((s) => s.chapters)
 
 // Tamaños base (en px), ya 2 puntos más chicos que la escala Material por defecto.
 // Se multiplican por `scale` (el zoom que controla el usuario).
-const BASE = { h1: 22, h2: 18, h3: 16, body: 14 }
+const BASE = { h1: 22, h2: 18, h3: 16, h4: 14, body: 14 }
 
 // Mapea cada elemento Markdown a Material, con tamaño escalado por el zoom.
 function makeMdComponents(scale) {
@@ -60,6 +61,11 @@ function makeMdComponents(scale) {
     ),
     h3: ({ children }) => (
       <Typography component="h3" sx={{ fontSize: px(BASE.h3), fontWeight: 600, color: 'secondary.main', mt: 3, mb: 1 }}>
+        {children}
+      </Typography>
+    ),
+    h4: ({ children }) => (
+      <Typography component="h4" sx={{ fontSize: px(BASE.h4), fontWeight: 700, color: 'primary.main', textTransform: 'uppercase', letterSpacing: 0.4, mt: 2.5, mb: 0.5 }}>
         {children}
       </Typography>
     ),
@@ -261,7 +267,7 @@ export default function App() {
               borderColor: 'divider',
             }}
           >
-            <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>{content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]} components={mdComponents}>{content}</ReactMarkdown>
           </Paper>
         </Box>
       </Box>

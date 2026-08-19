@@ -19,8 +19,6 @@ futuro del marketing de agentes.
 
 ![La evolución de Marketing Cloud hacia Marketing Cloud Next](https://res.cloudinary.com/hy4kyit2a/f_auto/fl_lossy/q_70/learn/modules/marketing-cloud-next-basics/get-to-know-marketing-cloud-next/images/79dadd61952ff0c7e3a86d413defbb39_kix.v70gnar55eez.png)
 
-# Marketing Cloud Next — Resumen
-
 ## Idea principal
 
 Marketing Cloud Next busca resolver **3 grandes problemas del marketing tradicional**:
@@ -33,9 +31,7 @@ La propuesta de Marketing Cloud Next es combinar:
 
 **Datos unificados + Experiencias multicanal + IA y Agentes + Automatización + Optimización**
 
----
-
-## Comparación: Antes vs. Marketing Cloud Next
+### Comparación: Antes vs. Marketing Cloud Next
 
 | Antes | Marketing Cloud Next |
 |---|---|
@@ -46,11 +42,9 @@ La propuesta de Marketing Cloud Next es combinar:
 | Muchas herramientas diferentes | Plataforma integrada con Marketing, Ventas, Servicio y Commerce |
 | Difícil medir resultados | Medición, atribución y optimización continua |
 
----
+## 1. Comprender al cliente y el mercado
 
-# 1. Comprender al cliente y el mercado
-
-## Problema tradicional
+### Problema tradicional
 
 Tener los datos del cliente no significaba necesariamente poder utilizarlos fácilmente.
 
@@ -64,7 +58,7 @@ Marketing muchas veces dependía de:
 
 Esto hacía más lenta la creación de segmentos, campañas y experiencias personalizadas.
 
-## Con Marketing Cloud Next
+### Con Marketing Cloud Next
 
 Marketing Cloud Next permite trabajar con **datos unificados y accionables**.
 
@@ -79,15 +73,13 @@ Los marketers pueden utilizar esos datos para:
 - Optimizar campañas.
 - Alimentar agentes de IA.
 
-### Concepto para recordar
+#### Concepto para recordar
 
 **Datos → Insights → Segmentación → Personalización → Acción**
 
----
+## 2. Gestionar experiencias multicanal
 
-# 2. Gestionar experiencias multicanal
-
-## Problema tradicional
+### Problema tradicional
 
 Coordinar experiencias entre diferentes canales requería mucho trabajo manual.
 
@@ -104,7 +96,7 @@ Además, cada departamento podía trabajar con plataformas y datos diferentes.
 
 Esto generaba **silos de información** y experiencias desconectadas.
 
-## Con Marketing Cloud Next
+### Con Marketing Cloud Next
 
 Marketing Cloud Next permite gestionar el **customer journey completo desde un mismo lugar**.
 
@@ -118,7 +110,7 @@ Los journeys pueden utilizar:
 - Encadenamiento de journeys.
 - Interacciones entre diferentes canales.
 
-### Ejemplo conceptual
+#### Ejemplo conceptual
 
 **Cliente realiza una acción**
 
@@ -142,15 +134,13 @@ Los journeys pueden utilizar:
 
 **El cliente continúa por el journey más adecuado**
 
-### Concepto para recordar
+#### Concepto para recordar
 
 **Orquestar todo el ciclo de vida del cliente entre canales y departamentos.**
 
----
+## 3. Incrementar eficiencia y escalabilidad
 
-# 3. Incrementar eficiencia y escalabilidad
-
-## Problema tradicional
+### Problema tradicional
 
 Marketing normalmente necesita combinar diferentes herramientas para:
 
@@ -170,13 +160,16 @@ Esto genera:
 - Experiencias desconectadas.
 - Dificultad para demostrar ROI.
 
-## Con Marketing Cloud Next
+### Con Marketing Cloud Next
 
 Marketing Cloud Next incorpora **agentes de IA integrados en la plataforma**.
+Estos agentes pueden ayudar en diferentes áreas:
 
-Estos agentes pueden ayudar en diferentes áreas.
+<div class="card-grid">
 
-### Marketing
+<div class="card">
+
+**Marketing**
 
 Pueden colaborar en:
 
@@ -186,7 +179,11 @@ Pueden colaborar en:
 - Informes.
 - Optimización de campañas.
 
-### Ventas
+</div>
+
+<div class="card">
+
+**Ventas**
 
 Pueden ayudar a:
 
@@ -196,7 +193,11 @@ Pueden ayudar a:
 - Identificar oportunidades.
 - Derivar oportunidades a un SDR o vendedor.
 
-### Customer Experience
+</div>
+
+<div class="card">
+
+**Customer Experience**
 
 Los agentes pueden interactuar con clientes **24/7** para:
 
@@ -206,11 +207,13 @@ Los agentes pueden interactuar con clientes **24/7** para:
 - Ayudar con reservas o programación.
 - Personalizar experiencias web.
 
-### Optimización y ROI
+</div>
 
-La IA puede analizar continuamente las campañas y detectar qué está funcionando.
+<div class="card">
 
-Por ejemplo:
+**Optimización y ROI**
+
+La IA puede analizar continuamente las campañas y detectar qué está funcionando:
 
 - Identificar anuncios con bajo rendimiento.
 - Recomendar pausarlos.
@@ -218,27 +221,27 @@ Por ejemplo:
 - Cambiar el recorrido del cliente según su comportamiento.
 - Buscar que cada cliente siga el journey más adecuado.
 
+</div>
+
+</div>
+
 Algunas acciones pueden requerir **aprobación humana**, manteniendo mecanismos de control y gobernanza.
 
----
+## Los 3 pilares para memorizar
 
-# Los 3 pilares para memorizar
-
-## 1. DATA → Entender
+### 1. DATA → Entender
 
 Unificar los datos para comprender al cliente y tomar mejores decisiones.
 
-## 2. JOURNEYS → Conectar
+### 2. JOURNEYS → Conectar
 
 Orquestar experiencias multicanal durante todo el ciclo de vida del cliente.
 
-## 3. AI → Automatizar y optimizar
+### 3. AI → Automatizar y optimizar
 
 Utilizar agentes de IA para ejecutar tareas, tomar decisiones y mejorar campañas.
 
----
-
-# Fórmula mental
+## Fórmula mental
 
 **Marketing Cloud Next =**
 
@@ -256,15 +259,11 @@ Utilizar agentes de IA para ejecutar tareas, tomar decisiones y mejorar campaña
 
 + **Optimización**
 
----
-
-# Resumen en una frase
+## Resumen en una frase
 
 Marketing Cloud Next combina **datos unificados, automatización multicanal y agentes de IA** para que Marketing pueda entender al cliente, personalizar experiencias y optimizar resultados sin depender constantemente de IT.
 
----
-
-# Diferencia conceptual importante
+## Diferencia conceptual importante
 
 Marketing Cloud Next no debe entenderse simplemente como:
 
